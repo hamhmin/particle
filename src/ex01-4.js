@@ -153,11 +153,10 @@ export default function example() {
 
 		// mouse 이동에 따른 카메라 lookAt 보정
 		// console.log("커서 위치에 따른 xyz 좌표" , mouse)
-		console.log(camera.position,mouse.x,mouse.y);
 		camera.lookAt(mouse.x,mouse.y);
 	}
-
-	scene.fog = new THREE.Fog("#fff", 0, 1);
+	// 좀 더 자연스럽게 나타나도록 fog 추가
+	scene.fog = new THREE.Fog("#000", 2, 3);
 	
     const composer = new EffectComposer( renderer );
     const renderPass = new RenderPass( scene, camera );
