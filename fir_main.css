@@ -1,0 +1,90 @@
+body {
+	margin: 0;
+}
+#three-canvas {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.btn-wrap{
+	display: flex;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50% , -50%);
+	gap:40px;
+}
+.btn-box{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 50%;
+	margin: 0 auto;
+}
+.btn-box2{
+	display: flex;
+	gap: 20px;
+
+}
+#btn{
+	padding: 10px 20px;
+	background: rgba(255,255,255,0.5);
+	border:0;
+	color: #fff;
+	cursor:pointer;
+	transition-duration: 1s;
+}
+#btn:hover{
+	color: seagreen;
+	background: rgba(255,255,255,0.9);
+	
+}
+#btn2{
+	padding: 10px 20px;
+	background: rgba(255,255,255,0.5);
+	border:0;
+	color: #fff;
+	cursor:pointer;
+	transition-duration: 1s;
+}
+#btn2:hover{
+	color: seagreen;
+	background: rgba(255,255,255,0.9);
+	
+}
+#btn3{
+	padding: 10px 20px;
+	background: rgba(255,255,255,0.5);
+	border:0;
+	color: #fff;
+	cursor:pointer;
+	transition-duration: 1s;
+}
+#btn3:hover{
+	color: seagreen;
+	background: rgba(255,255,255,0.9);
+	
+}
+#btn4{
+	padding: 10px 20px;
+	background: rgba(255,255,255,0.5);
+	border:0;
+	color: #fff;
+	cursor:pointer;
+	transition-duration: 1s;
+}
+#btn4:hover{
+	color: seagreen;
+	background: rgba(255,255,255,0.9);
+	
+}
+p{
+	color: white;
+	font-weight: 700;
+	position: absolute;
+	top: -100px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: max-content;
+	text-align: center;
+}
